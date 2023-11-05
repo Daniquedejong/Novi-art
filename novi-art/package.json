@@ -1,21 +1,21 @@
 {
-	"name": "novi-art",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"lint": "prettier --plugin-search-dir . --check .",
-		"format": "prettier --plugin-search-dir . --write ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.20.4",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.10.1",
-		"svelte": "^4.0.5",
-		"vite": "^4.4.2"
-	},
-	"type": "module"
+  "name": "novi-art",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+	"build": "echo \"No build specified\" && exit 1",
+     "test": "echo \"No test specified\" && exit 1",
+     "start": "node index.js"
+   },
+  "repository": {
+      "type": "git",
+       "url": "git+https://github.com/Daniquedejong/Novi-art.git"
+  },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+   "url": "https://github.com/Daniquedejong/Novi-art/issues"
+    },
+   "homepage": "https://github.com/Daniquedejong/Novi-art#readme"
 }
+	

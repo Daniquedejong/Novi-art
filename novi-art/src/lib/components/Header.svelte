@@ -6,26 +6,33 @@
 		<input type="checkbox" />
 		<span class="menu"> <span class="hamburger" /> </span>
 		<ul>
-			<li><a href="" class="home">Home</a></li>
-			<li><a href="" class="drawings">Drawings</a></li>
-			<li><a href="" class="videos">Videos</a></li>
-			<li><a href="" class="installations">Installations</a></li>
-			<li><a href="" class="performances">Performances</a></li>
-			<li><a href="" class="contact">Contact</a></li>
+			<li><a href="/" class="home">Home</a></li>
+			<li><a href="/drawings" class="drawings">Drawings</a></li>
+			<li><a href="src\routes\videos\+page.svelte" class="videos">Videos</a></li>
+			<li><a href="src\routes\installations\+page.svelte" class="installations">Installations</a></li>
+			<li><a href="src\routes\performances\+page.svelte" class="performances">Performances</a></li>
+			<li><a href="src\routes\contact\+page.svelte" class="contact">Contact</a></li>
+			<span style="cursor:pointer"><a href="#top"><img src="src\assets\down-arrow.png" class="arrow" alt="arrow"></a></span>
 		</ul>
 	</label>
+<!--NAV FIXEN, WERKT NIET. Componenten doen het niet. Verwijzing naar home gaat ook verkeerd-->
 	<nav>
-		<a href="" class="home">Home</a>
-		<a href="" class="drawings">Drawings</a>
-		<a href="" class="videos">Videos</a>
-		<a href="" class="installations">Installations</a>
-		<a href="" class="performances">Performances</a>
-		<a href="" class="contact">Contact</a>
+		<a href="/" class="home">Home</a>
+		<a href="/drawings" class="drawings">Drawings</a>
+		<a href="src\routes\videos\+page.svelte" class="videos">Videos</a>
+		<a href="src\routes\installations\+page.svelte" class="installations">Installations</a>
+		<a href="src\routes\performances\+page.svelte" class="performances">Performances</a>
+		<a href="src\routes\contact\+page.svelte" class="contact">Contact</a>
 	</nav>
 </body>
 
 <style>
+	
 	@media (width>35em) {
+
+		body {
+			background-color: rgb(255, 252, 249);
+		}
 
 		label {
             display: none;
@@ -41,7 +48,7 @@
             display: grid;
             grid-template-areas: 
             'home drawings videos installations performances contact';
-            background-color: rgb(255, 246, 234);
+            background-color: rgb(255, 252, 249);
             padding: 2em;
         }
 		
@@ -62,6 +69,7 @@
 			font-size: 1.2em;
 			line-height: 1.6;
 			overflow-x: hidden;
+			background-color: rgb(255, 252, 249);
 		}
 
 		label .menu {
@@ -151,6 +159,7 @@
 			transform: translate(-50%, -50%);
 			opacity: 0;
 			transition: 0.25s 0.05s ease-in-out;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		}
 
 		label a {
@@ -159,5 +168,13 @@
 			color: #000000;
 			text-decoration: none;
 		}
+
+		.arrow {
+			width: 2em;
+			margin-bottom: -20em;
+			transform: rotate(180deg);
+			margin-left: 1em;
+		}
 	}
+
 </style>

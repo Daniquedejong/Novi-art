@@ -1,7 +1,7 @@
 <script>
-	import Header from '../components/+header.svelte';
-	import Home from '../components/+home.svelte';
-    import Footer from '../components/+footer.svelte';
+	import Header from '../lib/components/Header.svelte';
+	import Home from '../lib/components/Home.svelte';
+    import Footer from '../lib/components/Footer.svelte';
 </script>
 
 <Header />
