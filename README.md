@@ -1,6 +1,11 @@
 
 # Novi art
 
+<img src='https://github.com/Daniquedejong/Novi-art/assets/112856683/6aed2aad-b593-421f-af44-a21f87cfc54f' width=50%>
+
+<img src='https://github.com/Daniquedejong/Novi-art/assets/112856683/efad013b-459c-4eab-b0ab-c7f5bba6f9bb' width=50%>
+
+
 ## 📚 Inhoudsopgave
 
 * [Beschrijving](#beschrijving)
